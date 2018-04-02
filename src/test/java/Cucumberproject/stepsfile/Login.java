@@ -28,7 +28,8 @@ public class Login {
 	    this.driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
 	}
 	
-	/*@Before
+	/*use this if you wish to use firefox browser for testing
+	/*@Before 
 	public void setup_firefox() {
 		System.setProperty("webdriver.gecko.driver", "C:\\cucumber\\Cucumberproject\\src\\test\\java\\resources\\geckodriver.exe");
 	    DesiredCapabilities d=new DesiredCapabilities();
@@ -60,12 +61,12 @@ public class Login {
 	@And("^User enters a valid username$")
 	public void user_enters_a_valid_username() throws Throwable {
 		Thread.sleep(1000);
-	    driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("biplabkarki04@gmail.com");
+	    driver.findElement(By.xpath(".//*[@id='email']")).sendKeys(" "); //add stackoverflow email in sendkeys
 	}
 
 	@And("^User enters a valid password$")
 	public void user_enters_a_valid_password() throws Throwable {
-		driver.findElement(By.xpath(".//*[@id='password']")).sendKeys("Meriaama12");
+		driver.findElement(By.xpath(".//*[@id='password']")).sendKeys(" "); //add stackoverflow password in sendkeys
 	}
 
 	@When("^User clicks on login button$")
