@@ -1,6 +1,6 @@
 # BDD Automation Test using Cucumber Framework
 
-An automation test for logging in to stackoverflow conducted as a course of study project with udemy automation course.
+An automation test for logging in to stackoverflow account conducted as a course of study project with udemy. The course was titled "2.5 hours of Cucumber, Selenium and Java-Develop a framework in 2.5 hours".
 
 The video for the project is: "https://www.youtube.com/watch?v=HV6xag_m87Q".
 
